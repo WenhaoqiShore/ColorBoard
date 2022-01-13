@@ -8,13 +8,19 @@
 
 ### "type": "SOLID"
 
-"type": "SOLID" 为填充样式，暂时只有色彩填充，未来可能会包含渐变色填充。
+`"type": "SOLID"` 为填充样式，暂时只有色彩填充，未来可能会包含渐变色填充。
 
 色彩的 Alpha 通道
 
+```
+
 "opacity": 1,
 
+```
+
 色彩 RGB
+
+```
 
 "color": {
 
@@ -24,6 +30,8 @@
   
 }
 
+```
+
 iOS 直接使用 RGB 值可支持 P-3 色域表现，Web 需转换为，256进制的 rgba() 格式
 
 ### type": "TEXT"
@@ -32,6 +40,8 @@ type": "TEXT" 为文本样式，包含字体、字号、字重、字间距。
 
 字体家族与字重
 
+```
+
 "fontname": {
 
   "family": "Shore UI",
@@ -39,22 +49,36 @@ type": "TEXT" 为文本样式，包含字体、字号、字重、字间距。
   
 }
 
+```
+
 字号
+
+```
 
 "fontsize": 17
 
+```
+
 行高
+
+```
 
 "lineheight": {
   "unit": "PIXELS",
   "value": 24
 }
 
+```
+
 字间距
+
+```
 
 "letterspacing": {
   "unit": "PERCENT",
   "value": -0.008999999612569809
 }
+
+```
 
 "unit" 为 value 描述的单位
