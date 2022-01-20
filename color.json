@@ -1,7 +1,7 @@
 {
   "Update": {
     "type": "UPDATE",
-    "time": "01/13/2022, 08:06:05 PM"
+    "time": "01/20/2022, 03:20:50 PM"
   },
   "Basic(Universal)/Black": {
     "description": "#000000",
@@ -229,6 +229,18 @@
       "r": 0.11372549086809158,
       "g": 0.10980392247438431,
       "b": 0.13333334028720856
+    }
+  },
+  "Light/O-V": {
+    "description": "",
+    "type": "SOLID",
+    "visible": true,
+    "opacity": 0.9200000166893005,
+    "blendMode": "NORMAL",
+    "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1
     }
   },
   "Light/O-P": {
@@ -795,6 +807,18 @@
       "b": 0.4162006080150604
     }
   },
+  "Light/B-T-Blur": {
+    "description": "",
+    "type": "SOLID",
+    "visible": true,
+    "opacity": 0.9300000071525574,
+    "blendMode": "NORMAL",
+    "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    }
+  },
   "Light/iOS/Thick": {
     "description": "",
     "type": "SOLID",
@@ -853,6 +877,18 @@
       "r": 0.9764705896377563,
       "g": 0.9764705896377563,
       "b": 0.9764705896377563
+    }
+  },
+  "Light/iOS/TabBar": {
+    "description": "",
+    "type": "SOLID",
+    "visible": true,
+    "opacity": 0.8999999761581421,
+    "blendMode": "NORMAL",
+    "color": {
+      "r": 0.9686274528503418,
+      "g": 0.9686274528503418,
+      "b": 0.9686274528503418
     }
   },
   "Dark/B-P": {
@@ -1009,6 +1045,18 @@
       "r": 0.248038187623024,
       "g": 0.24390624463558197,
       "b": 0.26249998807907104
+    }
+  },
+  "Dark/O-V": {
+    "description": "",
+    "type": "SOLID",
+    "visible": true,
+    "opacity": 0.8799999952316284,
+    "blendMode": "NORMAL",
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0
     }
   },
   "Dark/O-P": {
@@ -1575,6 +1623,18 @@
       "b": 0.32442915439605713
     }
   },
+  "Dark/B-T-Blur": {
+    "description": "",
+    "type": "SOLID",
+    "visible": true,
+    "opacity": 0.8799999952316284,
+    "blendMode": "NORMAL",
+    "color": {
+      "r": 0.21851851046085358,
+      "g": 0.2130555510520935,
+      "b": 0.24583333730697632
+    }
+  },
   "Dark/iOS/Thick": {
     "description": "",
     "type": "SOLID",
@@ -1634,6 +1694,96 @@
       "g": 0.11372549086809158,
       "b": 0.11372549086809158
     }
+  },
+  "Dark/iOS/TabBar": {
+    "description": "",
+    "type": "SOLID",
+    "visible": true,
+    "opacity": 0.800000011920929,
+    "blendMode": "NORMAL",
+    "color": {
+      "r": 0.08627451211214066,
+      "g": 0.08627451211214066,
+      "b": 0.08627451211214066
+    }
+  },
+  "Gradient/Accent-G-P": {
+    "description": "",
+    "type": "GRADIENT_LINEAR",
+    "visible": true,
+    "opacity": 1,
+    "blendMode": "NORMAL",
+    "gradientStops": [
+      {
+        "color": {
+          "r": 0.5337551236152649,
+          "g": 0.4583333134651184,
+          "b": 1,
+          "a": 1
+        },
+        "position": 0
+      },
+      {
+        "color": {
+          "r": 0.4610506296157837,
+          "g": 0.375,
+          "b": 1,
+          "a": 1
+        },
+        "position": 1
+      }
+    ],
+    "gradientTransform": [
+      [
+        0.5,
+        0.5,
+        1.249000902703301e-16
+      ],
+      [
+        -0.5,
+        0.5,
+        0.5
+      ]
+    ]
+  },
+  "Gradient/Accent-G-S": {
+    "description": "",
+    "type": "GRADIENT_LINEAR",
+    "visible": true,
+    "opacity": 1,
+    "blendMode": "NORMAL",
+    "gradientStops": [
+      {
+        "color": {
+          "r": 0.43529412150382996,
+          "g": 0.3490196168422699,
+          "b": 0.9686274528503418,
+          "a": 0.4000000059604645
+        },
+        "position": 0
+      },
+      {
+        "color": {
+          "r": 0.4352940022945404,
+          "g": 0.3490196466445923,
+          "b": 0.9686274528503418,
+          "a": 0.800000011920929
+        },
+        "position": 1
+      }
+    ],
+    "gradientTransform": [
+      [
+        0.4619927704334259,
+        0.5380071997642517,
+        0
+      ],
+      [
+        -0.5380071997642517,
+        0.5380071997642517,
+        0.5
+      ]
+    ]
   },
   "Desktop/Footnote": {
     "description": "10, 14",
@@ -1704,7 +1854,7 @@
     }
   },
   "Desktop/Focus": {
-    "description": "",
+    "description": "17, 24",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1721,7 +1871,7 @@
     }
   },
   "Desktop/Place": {
-    "description": "",
+    "description": "20, 28",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1738,7 +1888,7 @@
     }
   },
   "Desktop/Emphasis/Footnote": {
-    "description": "",
+    "description": "10, 14",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1755,7 +1905,7 @@
     }
   },
   "Desktop/Emphasis/Remark": {
-    "description": "",
+    "description": "11, 15",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1772,7 +1922,7 @@
     }
   },
   "Desktop/Emphasis/Body": {
-    "description": "",
+    "description": "13, 18",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1789,7 +1939,7 @@
     }
   },
   "Desktop/Emphasis/Title": {
-    "description": "",
+    "description": "15, 21",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1806,7 +1956,7 @@
     }
   },
   "Desktop/Emphasis/Focus": {
-    "description": "",
+    "description": "17, 24",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1823,7 +1973,7 @@
     }
   },
   "Desktop/Emphasis/Place": {
-    "description": "",
+    "description": "20, 28",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1840,7 +1990,7 @@
     }
   },
   "Mobile/Footnote": {
-    "description": "",
+    "description": "11, 15",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1857,7 +2007,7 @@
     }
   },
   "Mobile/Remark": {
-    "description": "",
+    "description": "13, 18",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1874,7 +2024,7 @@
     }
   },
   "Mobile/Body": {
-    "description": "",
+    "description": "15, 21",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1891,7 +2041,7 @@
     }
   },
   "Mobile/Title": {
-    "description": "",
+    "description": "17, 24",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1908,7 +2058,7 @@
     }
   },
   "Mobile/Focus": {
-    "description": "",
+    "description": "20, 28",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1925,7 +2075,7 @@
     }
   },
   "Mobile/Place": {
-    "description": "",
+    "description": "22, 30",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1942,7 +2092,7 @@
     }
   },
   "Mobile/Emphasis/Footnote": {
-    "description": "",
+    "description": "11, 15",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1959,7 +2109,7 @@
     }
   },
   "Mobile/Emphasis/Remark": {
-    "description": "",
+    "description": "13, 18",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1976,7 +2126,7 @@
     }
   },
   "Mobile/Emphasis/Body": {
-    "description": "",
+    "description": "14, 21",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -1993,7 +2143,7 @@
     }
   },
   "Mobile/Emphasis/Title": {
-    "description": "",
+    "description": "17, 24",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -2010,7 +2160,7 @@
     }
   },
   "Mobile/Emphasis/Focus": {
-    "description": "",
+    "description": "20, 28",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -2027,7 +2177,7 @@
     }
   },
   "Mobile/Emphasis/Place": {
-    "description": "",
+    "description": "22, 30",
     "type": "TEXT",
     "fontname": {
       "family": "Shore UI",
@@ -2041,6 +2191,40 @@
     "letterspacing": {
       "unit": "PERCENT",
       "value": -0.017000000923871994
+    }
+  },
+  "Mobile/iOS/NavTitle": {
+    "description": "",
+    "type": "TEXT",
+    "fontname": {
+      "family": "Shore UI",
+      "style": "Medium"
+    },
+    "fontsize": 32,
+    "lineheight": {
+      "unit": "PIXELS",
+      "value": 40
+    },
+    "letterspacing": {
+      "unit": "PERCENT",
+      "value": -0.013000000268220901
+    }
+  },
+  "Mobile/Android/NavTitle": {
+    "description": "",
+    "type": "TEXT",
+    "fontname": {
+      "family": "Shore UI",
+      "style": "Regular"
+    },
+    "fontsize": 28,
+    "lineheight": {
+      "unit": "PIXELS",
+      "value": 36
+    },
+    "letterspacing": {
+      "unit": "PERCENT",
+      "value": -0.013000000268220901
     }
   },
   "StyleList/Caption": {
